@@ -1,0 +1,44 @@
+.header-main{
+  background: white;
+  width: 100%;
+  .head-top{
+    text-align: right;
+    border-bottom: 1px solid #1DA57A;
+  }
+  .head-bottom{
+    height: 40px;
+    line-height: 40px;
+    >h3{
+      position: relative;
+      float: left;
+      width: 400px;
+      text-align: center;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.65);
+      &:after{
+        content: '';
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-bottom: 25px solid transparent;
+        border-top: 25px solid white;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        position: absolute;
+        top: 40px;
+        left: 174px;
+      }
+    }
+    >div{
+      float: right;
+      >img{
+        margin: 0 20px;
+        width: 35px;
+        height: 25px;
+      }
+      >span{
+        margin-right: 10px;
+      }
+    }
+  }
+}
